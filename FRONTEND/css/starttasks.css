@@ -1,0 +1,35 @@
+.list-group-item
+{
+	transition: background-color 0.5s,color 0.5s;
+}
+.list-group-item:hover
+{
+	background-color: #00AF50;
+	color: white;
+	cursor: pointer;
+}
+.list-group
+{
+	box-shadow: -1px 9px 40px -15px black;
+	border-radius: 20px;
+}
+#task_content
+{
+	background-color: white;
+	box-shadow: -1px 9px 40px -15px black; 
+	padding: 30px;
+}
+#task_1_display
+{
+	display: block;
+	padding: 20px;
+}
+#task_2_display,#task_3_display,#task_4_display,#task_5_display
+{
+	display: none;
+	padding: 20px;
+}
+.list-group-item .active
+{
+	background-color:#00AF50 !important; 
+}
